@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="session2.td.heritageMultiple.AlgebreNatParInt" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/AlgebreNatParInt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="803" y="314"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="session2.td.heritageMultiple.AlgebreNatRecursif" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/AlgebreNatRecursif.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1087" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="session1.td.Nat" project="cours" file="/cours/src/session1/td/Nat.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="600" y="-83"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="session2.td.heritageMultiple.IntPositif" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/IntPositif.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="129" y="846"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="session2.td.heritageMultiple.NatParInt" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/NatParInt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="814" y="817"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="session2.td.heritageMultiple.SuccRecursif" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/SuccRecursif.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1146" y="1083"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="session2.td.heritageMultiple.ZeroRecursif" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/ZeroRecursif.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1306" y="1163"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="session2.td.heritageMultiple.AlgebreNatDecimal" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/AlgebreNatDecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="541" y="310"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="9" language="java" name="session2.td.heritageMultiple.AlgebreNatRecursifSuccesseur" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/AlgebreNatRecursifSuccesseur.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="961" y="79"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="10" language="java" name="session2.td.heritageMultiple.AlgebreNatRecursifZero" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/AlgebreNatRecursifZero.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1205" y="80"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="session2.td.heritageMultiple.NombreDecimal" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/NombreDecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="129" y="556"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="session2.td.heritageAscendant.NatInductif" project="cours" 
+    file="/cours/src/session2/td/heritageAscendant/NatInductif.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="342" y="69"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="session2.td.heritageMultiple.EtatSucc" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/EtatSucc.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="98" y="1082"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="session2.td.heritageMultiple.EtatZero" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/EtatZero.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="246" y="1183"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="session2.td.heritageMultiple.NatDecimal" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/NatDecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="525" y="561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="session2.td.heritageMultiple.NatDecimalParInt" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/NatDecimalParInt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="807" y="562"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="session2.td.heritageMultiple.NatDecimalRecursif" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/NatDecimalRecursif.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1127" y="563"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="session2.td.heritageMultiple.NatParIntDecimal" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/NatParIntDecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="503" y="817"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="session2.td.heritageMultiple.NatParIntRecursif" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/NatParIntRecursif.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1117" y="820"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="session2.td.heritageMultiple.SuccDecimal" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/SuccDecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="445" y="1038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="session2.td.heritageMultiple.ZeroDecimal" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/ZeroDecimal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="608" y="1135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="session2.td.heritageMultiple.SuccParInt" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/SuccParInt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="813" y="1045"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="session2.td.heritageMultiple.ZeroParInt" project="cours" 
+    file="/cours/src/session2/td/heritageMultiple/ZeroParInt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="962" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <realization id="25">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="27">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="28">    
+    <bendpoint x="292" y="984"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <realization id="30">    
+    <bendpoint x="227" y="686"/>    
+    <bendpoint x="210" y="0"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <realization id="36">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="37">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="40">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="41">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="42">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="46">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="49">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="50">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="51">    
+    <bendpoint x="145" y="-69"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="52">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <generalization id="53">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="54">    
+    <bendpoint x="1202" y="-85"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <realization id="57">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <generalization id="58">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
