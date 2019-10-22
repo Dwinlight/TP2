@@ -6,54 +6,31 @@ import interfaces.CoucheHauteIteratif;
 import interfaces.FilePrioEnrichie;
 import interfaces.FilePrioSimple;
 
-public class IterNonTriee<T> implements CoucheHauteIteratif<T> {
+public class IterNonTriee<T extends Comparable<T>> extends FilePrioSimpleImplNonTriee<T> implements CoucheHauteIteratif<T> {
+
+
+    public IterNonTriee(Liste liste) {
+        super(liste);
+    }
+
     @Override
     public FilePrioEnrichie<T> fabriqueEnrichie() {
-        return null;
+        return new IterNonTriee<T>(Liste.vide());
     }
 
     @Override
     public FilePrioEnrichie<T> ajouterEnrichie(T t) {
-        return null;
+        return (FilePrioEnrichie<T>) this.ajouter(t);
     }
 
     @Override
     public Couple<T, FilePrioEnrichie<T>> retirerEnrichie() {
-        return null;
+        Couple<T,FilePrioSimple<T>> c = this.retirer();
+        return Couple.def(c.un,(FilePrioEnrichie<T>)c.deux);
     }
 
     @Override
     public FilePrioEnrichie<T> somme(FilePrioEnrichie<T> x) {
-        return null;
-    }
-
-    @Override
-    public boolean estVide() {
-        return false;
-    }
-
-    @Override
-    public int taille() {
-        return 0;
-    }
-
-    @Override
-    public Liste<T> toListe() {
-        return null;
-    }
-
-    @Override
-    public FilePrioSimple<T> fabrique() {
-        return null;
-    }
-
-    @Override
-    public FilePrioSimple<T> ajouter(T t) {
-        return null;
-    }
-
-    @Override
-    public Couple<T, FilePrioSimple<T>> retirer() {
-        return null;
+        return this.somme(x);
     }
 }

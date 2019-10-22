@@ -9,6 +9,8 @@ import interfaces.FilePrioSimple;
 public class FilePrioSimpleImplNonTriee<T extends Comparable<T>> extends FilePrioSimpleFacto<T> {
 
 
+
+
     public FilePrioSimpleImplNonTriee(Liste liste) {
         super.elements = liste;
     }

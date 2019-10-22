@@ -1,6 +1,7 @@
 package interfaces;
 
 import bibliotheque.Couple;
+import bibliotheque.Liste;
 import hierarchie.MonoideAdditif;
 
 public interface FilePrioEnrichie<T> extends MonoideAdditif<FilePrioEnrichie<T>>, FilePrioSimple<T> {

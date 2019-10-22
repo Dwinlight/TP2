@@ -2,7 +2,8 @@ package interfaces;
 
 import bibliotheque.Couple;
 
-public interface CoucheHauteIteratif <T> extends FilePrioEnrichie<T> {
+public interface
+CoucheHauteIteratif <T> extends FilePrioEnrichie<T> {
     default FilePrioEnrichie<T> somme(CoucheHauteIteratif<T> t){
         FilePrioEnrichie<T> s = (FilePrioEnrichie<T>) this.fabrique();
         Couple<T, FilePrioEnrichie<T>> tempo = t.retirerEnrichie();
