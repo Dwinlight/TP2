@@ -15,6 +15,6 @@ public interface CoucheHauteRecursif<T> extends FilePrioEnrichie<T> {
         }
     }
     default FilePrioEnrichie<T> zero() {
-        return (FilePrioEnrichie<T>) this.fabrique();
+        return  this.fabriqueEnrichie() ;
     }
 }
