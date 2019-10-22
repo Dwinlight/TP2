@@ -28,7 +28,7 @@ public class CoucheHauteRecImpl<T> implements CoucheHauteRecursif<T> {
 
     @Override
     public FilePrioEnrichie<T> somme(FilePrioEnrichie<T> x) {
-        return this.somme((CoucheHauteRecursif<T>)this.file);
+        return this.somme(x);
     }
 
     @Override
