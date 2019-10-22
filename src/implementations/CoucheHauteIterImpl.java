@@ -2,12 +2,12 @@ package implementations;
 
 import bibliotheque.Couple;
 import bibliotheque.Liste;
+import interfaces.CoucheHauteIteratif;
 import interfaces.CoucheHauteRecursif;
 import interfaces.FilePrioEnrichie;
 import interfaces.FilePrioSimple;
 
-public class CoucheHauteRecImpl<T> implements CoucheHauteRecursif<T> {
-
+public class CoucheHauteIterImpl<T> implements CoucheHauteIteratif<T> {
     private FilePrioSimple<T> file;
 
     @Override
@@ -60,4 +60,5 @@ public class CoucheHauteRecImpl<T> implements CoucheHauteRecursif<T> {
     public FilePrioSimple<T> ajouter(T t) {
         return this.file.ajouter(t);
     }
+
 }
