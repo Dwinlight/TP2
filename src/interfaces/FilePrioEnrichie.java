@@ -17,4 +17,5 @@ public interface FilePrioEnrichie<T> extends MonoideAdditif<FilePrioEnrichie<T>>
 
 
 
+
 }
