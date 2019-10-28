@@ -20,13 +20,13 @@ public class IterNonTriee<T extends Comparable<T>> extends FilePrioSimpleImplNon
 
     @Override
     public FilePrioEnrichie<T> ajouterEnrichie(T t) {
-        return (FilePrioEnrichie<T>) this.ajouter(t);
+        return new IterNonTriee(this.ajouter(t).toListe());
     }
 
     @Override
     public Couple<T, FilePrioEnrichie<T>> retirerEnrichie() {
         Couple<T,FilePrioSimple<T>> c = this.retirer();
-        return Couple.def(c.un,(FilePrioEnrichie<T>)c.deux);
+        return Couple.def(c.un,new IterNonTriee(c.deux.toListe()));
     }
 
     @Override

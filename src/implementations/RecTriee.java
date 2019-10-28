@@ -14,18 +14,18 @@ public class RecTriee<T extends Comparable<T>>  extends FilePrioSimpleTriee<T> i
 
     @Override
     public FilePrioEnrichie<T> fabriqueEnrichie() {
-        return new RecTriee<>(Liste.vide());
+        return new RecTriee(Liste.vide());
     }
 
     @Override
     public FilePrioEnrichie<T> ajouterEnrichie(T t) {
-        return (FilePrioEnrichie<T>) this.ajouter(t);
+        return new RecTriee(this.ajouter(t).toListe());
     }
 
     @Override
     public Couple<T, FilePrioEnrichie<T>> retirerEnrichie() {
         Couple<T,FilePrioSimple<T>>  c =  this.retirer() ;
-        return Couple.def(c.un, (FilePrioEnrichie<T>)c.deux) ;
+        return Couple.def(c.un, new RecTriee(c.deux.toListe())) ;
     }
 
     @Override
